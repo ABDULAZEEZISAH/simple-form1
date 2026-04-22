@@ -1,6 +1,6 @@
 #### Project title: Hands-on Lab: Using Git to Track and Manage Changes for a Simple Form
 
-###Project overview
+### Project overview
 
 This project involves creating a simple HTML form that collects user information, including Name, Email, and Message. The primary objective is not only to build the form but also to demonstrate the effective use of Git for version control.
 
@@ -60,7 +60,7 @@ git commit -m "Initial commit for simple form"
 
 Each update (e.g., phone number update, adding CSS, validation) is committed:
 
-git add sample simple form.html style.css
+git add simple-form.html style.css
 
 git commit -m "Added phone number field and updated styles"
 
