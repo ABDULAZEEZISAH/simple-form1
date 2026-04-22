@@ -2,7 +2,8 @@
 
 ### Project overview
 
-This project involves creating a simple HTML form that collects user information, including Name, Email, and Message. The primary objective is not only to build the form but also to demonstrate the effective use of Git for version control.
+This project involves creating a simple HTML form that collects user information, including Name, Email, and Message. The main focus of this project is to demonstrate the use of Git for version control, including tracking changes, maintaining history, and reverting to previous versions when necessary.
+
 
 **Prerequisites:**
 
@@ -12,13 +13,13 @@ This project involves creating a simple HTML form that collects user information
 * A simple HTML form file (form.html) and a CSS file (style.css) that collects user information, including name, email, and message in a local directory
 
 
-**Objectives**
+**Project Objectives**
 * Develop a Funtional simple HTML form
-* Apply CSS styling for improved user interface
+* Apply CSS styling for the user interface
 * Use Git to:
 1. Track changes
 2. Maintain version history
-3. Manage code safely
+3. Manage code change safely
 4. Revert to previous versions when needed
 
 **Technologies Used**
@@ -30,64 +31,13 @@ This project involves creating a simple HTML form that collects user information
 
 **Features**
 
-* User-friendly contact form
-Input fields:
-1. Name
-2. Email
-3. Message
-Form validation using HTML attributes (required)
-4. Responsive and clean UI design
-5. Version tracking using Git
+* User-friendly simple form
+* Input fields: Name, Email and Message
+* Form validation using HTML attributes (required)
+* Styled user interface
+* Version tracking using Git
 
-**Git Workflow Used**
-
-1. cloning the github repository:
-git clone git@github.com:ABDULAZEEZISAH/simple-form1.git
-
-2. Add Files
-   
-git add .
-
-3. Commit Changes by commit the staged files with a message:
-   
-git commit -m "Initial commit for simple form"
-
-4. Push the initial commit to the remote repository:
- 
- git push
-
-5. Make and Track Changes:
-
-Each update (e.g., phone number update, adding CSS, validation) is committed:
-
-git add simple-form.html style.css
-
-git commit -m "Added phone number field and updated styles"
-
-6. view the Git history to check all the changes you've made:
-
-git log
-
-7. Revert to a Previous Version:
-
-git checkout  simple-form.html
-
-
-8.  Branching for New Features:
-
-git checkout -b feature-add-captcha
-
-9. Make the necessary changes for the CAPTCHA feature, then stage and commit them:
-
-git add simpl-form.html
-
-git commit -m "Added CAPTCHA feature"
-
-10. Merge the changes back into the main branch:
-
-git checkout main
-git merge feature-add-captcha
-
+**screenshots**
 
 **Create a file called simple-form.html**
 
@@ -95,55 +45,107 @@ git merge feature-add-captcha
 
 
 
-**A simple HTML form that collects user information, including name, email, and message.**
+**FORM INTERFACE**
 
 ![Screenshot](sample-simple--form.PNG)
 
-**cloning the github  repository:**
+**Style sheet**
 
-![screensht](clone.PNG)
+![screeshot](style.PNG)
 
-**Git Add and Commit Your First Version file to staging area**
+**Getting started**
 
-![screenshot](git-add-comit.PNG)
+1. Clone the Repository
+</> markdown
+use 'git clone git@github.com:ABDULAZEEZISAH/simple-form1.git'
 
-**Git push cmd**
+**OUTPUT**
 
-Now Git has saved  first version (snapshot) of the project.
+![screenshot](clone.PNG)
+2. Navigate to Project Folder
 
-![screenshot](git-push.PNG)
+cd simple-form-project
 
-**Making change request by updating the phone number field to the form**
+**Git Workflow Used**
 
-Updating the file simple-form.html with phone number field
+1. Add Files
+   
+   </> markdown
+use 'git add .'
 
-![screenshot](code2.PNG)
+3. Commit Changes by commit the staged files with a message:
+   
+use 'git commit -m "Initial commit for simple form" '
 
-![screenshot](phoneupdate.PNG)
+**OUTPUT**
 
-**using Git to add phone number field and push cmd**
+![SCREENSHOT](git-add-comit.PNG)
 
-![screenshot](git-add-cmd-push.PNG)
+4. Push the initial commit to the remote repository:
+ 
+ use 'git push'
 
-**View History of Changes (Run Gitlog cmd)**
+ **OUTPUT**
 
-Output
+ ![screenshot](git-push.PNG)
 
-![screenshot](gitlogcmd.PNG)
+5. Make and Track Changes:
 
-**Reverting form.html to the last working version.**
+Each update (e.g., phone number update, adding CSS, validation) is committed:
 
-Go back to a specific version using Git checkout cmd
+use 'git add simple-form.html style.css'
 
-![screenshot](gitcheckout.PNG)
+use 'git commit -m "Added phone number field and updated styles"'
 
-**Experiment with adding a CAPTCHA feature to the form**
+**OUTPUT**
+![SCREENSHOT](phoneupdate.PNG)
 
-Creating a new branch called feature-add-captcha and switch to it:
+6. view the Git history to check all the changes you've made:
 
-![screenshot](Captcha.PNG)
+</> markdown
+ use 'git log'
+
+ **OUTPUT**
+
+ ![SCREENSHOT](gitlogcmd.PNG)
+
+7. Revert to a Previous Version:
+
+use 'git checkout  simple-form.html'
+
+**OUTPUT**
+
+![SCREENSHOT](gitcheckout.PNG)
 
 
-**Merging the changes back into the main branch: usig Git check and merge cmd**
+8.  Branching for New Features:
+
+use 'git checkout -b feature-add-captcha'
+
+**OUTPUT**
+
+![screnshot](Captcha.PNG)
+
+9. Make the necessary changes for the CAPTCHA feature, then stage and commit them:
+
+use 'git add simpl-form.html'
+
+'git commit -m "Added CAPTCHA feature"'
+
+10. Merge the changes back into the main branch:
+
+git checkout main
+git merge feature-add-captcha
+
+**OUTPUT**
 
 ![screenshot](gitcheckmerge.PNG)
+
+
+**OUTCOME:
+
+* Clone an existing GitHub repository to your local machine.
+* Track changes using commits.
+* Push and pull changes to and from GitHub.
+* Revert files to previous versions in case of errors.
+* Manage different features with branching.
