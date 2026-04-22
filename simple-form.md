@@ -19,3 +19,7 @@
 **Added phone number field to the form**
 
 ![screenshot](phoneupdate.PNG)
+
+**Git added phone number field and push cmd**
+
+![screenshot](git-add-cmd-push.PNG)
