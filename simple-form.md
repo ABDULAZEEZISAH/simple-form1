@@ -39,3 +39,6 @@ Output
 ![screenshot](Captcha.PNG)
 
 
+**Git check and merge cmd**
+
+![screenshot](gitcheckmerge.PNG)
