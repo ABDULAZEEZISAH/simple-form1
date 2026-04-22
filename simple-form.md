@@ -23,3 +23,19 @@
 **Git added phone number field and push cmd**
 
 ![screenshot](git-add-cmd-push.PNG)
+
+**Run Gitlog cmd**
+
+Output
+
+![screenshot](gitlogcmd.PNG)
+
+** using Git checkout cmd**
+
+![screenshot](gitcheckout.PNG)
+
+**adding a CAPTCHA feature to the form**
+
+![screenshot](Captcha.PNG)
+
+
