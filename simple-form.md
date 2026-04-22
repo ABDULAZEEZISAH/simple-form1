@@ -56,13 +56,15 @@ This project involves creating a simple HTML form that collects user information
 **Getting started**
 
 1. Clone the Repository
+   
 </> markdown
+
 use 'git clone git@github.com:ABDULAZEEZISAH/simple-form1.git'
 
 **OUTPUT**
 
 ![screenshot](clone.PNG)
-2. Navigate to Project Folder
+1. Navigate to Project Folder
 
 cd simple-form-project
 
